@@ -5,7 +5,7 @@ IPTV 를 볼 수 있는 프로그램입니다.
 채널 파일을 다운로드 해야 TV를 볼 수 있습니다. 아래 링크에서 채널 파일을 다운로드 하세요.
 
  * IPTV 채널 파일 : https://github.com/Free-IPTV/Countries
- * 전세계 무료채널(m3u) 압축 파일 : [free_iptv_m3u.zip](./free_iptv_m3u.zip)
+ * 전세계 무료채널(m3u) 압축 파일 : [free_iptv_m3u.zip](https://github.com/hamonikr/iptvnator/releases/download/20210610/free_iptv_m3u.zip)
 
 ![app](app.png)
 
