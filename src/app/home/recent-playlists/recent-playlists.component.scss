@@ -1,0 +1,18 @@
+mat-list-item {
+    cursor: pointer;
+}
+
+.mat-list-base {
+    padding-top: 0 !important;
+}
+
+mat-nav-list {
+    height: calc(100vh - 192px);
+    overflow: auto;
+}
+
+.meta {
+    font-size: 12px !important;
+    color: #666;
+    margin-top: 2px !important;
+}

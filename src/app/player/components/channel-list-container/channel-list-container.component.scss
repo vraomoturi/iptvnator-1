@@ -1,0 +1,64 @@
+.active {
+    background: #ddd;
+}
+
+.mat-list-base {
+    padding-top: 0;
+}
+
+::ng-deep .mat-expansion-panel-body {
+    padding: 0 !important;
+}
+
+.scroll-viewport {
+    min-height: calc(100vh - 142px);
+}
+
+.search-bar {
+    padding: 8px;
+    background: #ddd;
+    border: none;
+    border-radius: 4px;
+}
+
+::ng-deep .dark-theme {
+    .search-bar {
+        background: #666;
+        color: #fff;
+    }
+
+    .search-bar::placeholder {
+        color: #ccc;
+    }
+}
+
+::ng-deep {
+    .dark-theme .active {
+        background: #000;
+    }
+
+    .mat-tab-label-content {
+        text-transform: uppercase;
+    }
+
+    .mat-expansion-panel {
+        border-radius: 0 !important;
+    }
+
+    .mat-tab-label,
+    .mat-tab-label-active {
+        min-width: 0 !important;
+        padding: 15px !important;
+        margin: 5px !important;
+    }
+}
+
+.channel-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    font-size: 0.9em;
+    width: 290px;
+}

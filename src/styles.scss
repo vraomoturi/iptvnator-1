@@ -1,0 +1,61 @@
+$material-icons-font-path: '~material-icons/iconfont/';
+
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import '~material-icons/iconfont/material-icons.scss';
+@import '~@angular/material/theming';
+@import 'themes/';
+
+@include mat-core();
+
+body,
+html {
+    background: #fff;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mat-toolbar.mat-primary {
+    background: #000;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.mat-toolbar-row,
+.mat-toolbar-single-row {
+    height: 54px;
+}
+
+input,
+button,
+textarea,
+:focus {
+    outline: none;
+}
+
+.dark-theme .mat-expansion-panel,
+.dark-theme .mat-drawer,
+.dark-theme .mat-app-background,
+.dark-theme.mat-app-background {
+    background-color: #1d1d1d;
+}
+
+.dark-theme {
+    ::-webkit-scrollbar {
+        overflow-y: scroll;
+        background: rgb(100, 100, 100);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: rgb(60, 60, 60);
+    }
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}

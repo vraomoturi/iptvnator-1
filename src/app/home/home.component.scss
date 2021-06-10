@@ -1,0 +1,9 @@
+::ng-deep {
+    .mat-tab-label-content {
+        text-transform: uppercase;
+    }
+
+    .mat-tab-group.mat-background-primary .mat-tab-header-pagination {
+        display: none;
+    }
+}
