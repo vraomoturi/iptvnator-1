@@ -2,12 +2,18 @@
 
 IPTV 를 볼 수 있는 프로그램입니다. 
 
-채널 파일을 다운로드 해야 TV를 볼 수 있습니다. 아래 링크에서 채널 파일을 다운로드 하세요.
-
- * IPTV 채널 파일 : https://github.com/Free-IPTV/Countries
- * 전세계 무료채널(m3u) 압축 파일 : [free_iptv_m3u.zip](https://github.com/hamonikr/iptvnator/releases/download/20210610/free_iptv_m3u.zip)
+프로그램을 사용하려면 아래 채널 파일을 다운로드 해야 TV를 볼 수 있습니다. 
 
 ![app](app.png)
+
+## 채널 추가
+
+아래 링크에서 채널 파일을 다운로드 후 아래 이미지와 같이 원하는 채널을 추가하세요.
+
+ * IPTV 채널(m3u) 압축 파일 : [free_iptv_m3u.zip](https://github.com/hamonikr/iptvnator/releases/download/20210610/free_iptv_m3u.zip)
+ * IPTV 채널 파일 github : https://github.com/Free-IPTV/Countries
+
+![add_channel](add_channel.png)
 
 # Install
 
@@ -25,6 +31,8 @@ wget -qO- https://pkg.hamonikr.org/add-hamonikr.apt | sudo -E bash -
 # install
 sudo apt install iptvnator
 ```
+
+이 프로젝트는 아래 프로젝트의 포크입니다.
 
  * upstream : https://github.com/4gray/iptvnator
 
